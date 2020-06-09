@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".adding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/send_tool"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/semiround_toolbar"
+        android:layoutDirection="rtl">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/irsans"
+            android:text="ارسال دستور پخت"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/img_cv"
+        android:layout_marginHorizontal="10dp"
+        android:layout_gravity="center_horizontal"
+        android:elevation="10dp"
+
+        app:cardCornerRadius="25dp">
+
+        <ImageView
+            android:id="@+id/add_img_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="250dp"
+            android:minWidth="250dp"
+            android:background="@drawable/round_whitefill_purplestroke"
+            android:layout_gravity=""
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+                <EditText
+                    android:id="@+id/title_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="46dp"
+                    android:background="@drawable/round_whitefill_purplestroke"
+                    android:ems="10"
+                    android:hint="عنوان"
+                    android:inputType="textPersonName"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/irsans"
+                    android:padding="10dp"
+                    android:layout_marginHorizontal="20dp"
+                    />
+
+                <EditText
+                    android:id="@+id/ings_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="71dp"
+                    android:layout_below="@id/title_edt"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/round_whitefill_purplestroke"
+                    android:ems="10"
+                    android:fontFamily="@font/irsans"
+                    android:hint="مواد اولیه"
+                    android:inputType="textMultiLine"
+                    android:isScrollContainer="true"
+                    android:maxLines="5"
+                    android:padding="10dp"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:id="@+id/recipe_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="247dp"
+                    android:layout_below="@id/ings_edt"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/round_whitefill_purplestroke"
+                    android:ems="10"
+                    android:fontFamily="@font/irsans"
+                    android:hint="متن"
+                    android:inputType="textMultiLine"
+                    android:isScrollContainer="true"
+                    android:padding="10dp"
+                    android:maxLines="10"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:id="@+id/sender_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/recipe_edt"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:background="@drawable/round_whitefill_purplestroke"
+                    android:ems="10"
+                    android:padding="10dp"
+                    android:fontFamily="@font/irsans"
+                    android:hint="نام فرستنده"
+                    android:inputType="textPersonName"
+                    android:textSize="30sp" />
+
+
+
+
+    <Button
+        android:id="@+id/upload_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sender_edt"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_whitefill_purplestroke"
+        android:textColor="#673AB7"
+        android:enabled="false"
+        android:fontFamily="@font/irsans"
+        android:text="ارسال"
+        android:textSize="20sp"
+
+
+        />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

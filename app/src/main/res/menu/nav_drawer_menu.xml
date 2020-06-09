@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="خروج" android:id="@+id/menuitem1" android:icon="@drawable/exit" />
+    <item android:title="درباره ما" android:id="@+id/menuitem2" android:icon="@drawable/about_us" />
+    <item android:title="ارسال نظر" android:id="@+id/menuitem3" android:icon="@drawable/feedback" />
+
+</menu>

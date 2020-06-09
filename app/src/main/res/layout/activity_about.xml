@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/publisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:text=" ساخته شده توسط ایلیا علیزاده"
+        android:fontFamily="@font/irsans"
+        />
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:text=" ۹۳۰ ۱۷۶ ۳۵۷۳"
+        android:layout_below="@id/publisher"
+
+        android:fontFamily="@font/irsans"
+        />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:layout_below="@id/phone"
+        android:text=" iaeagle83@gmail.com"
+        android:fontFamily="@font/irsans"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_whitefill_purplestroke"
+        android:text="بازگشت"
+        android:fontFamily="@font/irsans"
+        android:layout_below="@id/email"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

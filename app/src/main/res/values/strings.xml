@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">فودیپه</string>
+
+    <string name="hint_email">ایمیل</string>
+    <string name="hint_password">رمز</string>
+    <string name="hint_name">نام</string>
+    <string name="btn_login">ورود</string>
+    <string name="btn_register">ثبت نام</string>
+    <string name="btn_link_to_register">عضو نیستید؟ ثبت نام کنید</string>
+    <string name="btn_link_to_login">قبلا ثبت شده اید؟ وارد شوید</string>
+    <string name="welcome">خوش آمدید</string>
+    <string name="btn_logout">خروج</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

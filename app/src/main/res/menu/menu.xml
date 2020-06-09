@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="تجویز"
+        android:id="@+id/prescription"
+        android:icon="@drawable/prescription"/>
+
+    <item
+        android:title="توصیه"
+        android:id="@+id/knows"
+        android:icon="@drawable/advice"
+
+        />
+
+
+
+    <item
+        android:title="دستورالعمل"
+        android:id="@+id/ings"
+        android:icon="@drawable/fork"/>
+
+
+    <item
+        android:title="کالری مواد"
+        android:id="@+id/calories"
+        android:icon="@drawable/calorie"/>
+
+
+    <item
+        android:title="حساب"
+        android:id="@+id/account"
+        android:icon="@drawable/user"/>
+
+</menu>
